@@ -1,0 +1,30 @@
+uuid: b1d23aeb-ac9d-4c8c-a573-6d42491a120c
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - options
+    - paragraphs
+id: paragraph.field_broadband_type
+field_name: field_broadband_type
+entity_type: paragraph
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: cellular
+      label: Cellular
+    -
+      value: copper
+      label: 'ADSL / VDSL'
+    -
+      value: fixed_wireless
+      label: 'Fixed Wireless'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

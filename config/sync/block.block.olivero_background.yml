@@ -1,0 +1,30 @@
+uuid: dbc7b2f5-3eb7-40a0-91ca-abdacda9c32c
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:36181eec-b7fe-488a-89b1-5cde3f2d74bc'
+  module:
+    - block_content
+    - system
+  theme:
+    - olivero
+id: olivero_background
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: 'block_content:36181eec-b7fe-488a-89b1-5cde3f2d74bc'
+settings:
+  id: 'block_content:36181eec-b7fe-488a-89b1-5cde3f2d74bc'
+  label: Articles
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: true
+    pages: ''

@@ -1,0 +1,22 @@
+uuid: e2e60349-42d6-447d-ab39-cc3ba38238da
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.company_list.field_broadband_type
+    - paragraphs.paragraphs_type.company_list
+  module:
+    - options
+id: paragraph.company_list.default
+targetEntityType: paragraph
+bundle: company_list
+mode: default
+content:
+  field_broadband_type:
+    type: list_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

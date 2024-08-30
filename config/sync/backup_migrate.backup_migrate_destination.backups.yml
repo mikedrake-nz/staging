@@ -1,0 +1,9 @@
+uuid: c396c3e4-6912-4f2a-9c84-f7a1344ec541
+langcode: en-gb
+status: true
+dependencies: {  }
+id: backups
+label: Backups.Daily
+type: Directory
+config:
+  directory: /home/greenkiw/.backups/drupal10/daily

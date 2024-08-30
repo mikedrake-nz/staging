@@ -1,0 +1,18 @@
+uuid: 2941f179-2114-46d9-bffc-74d331f28fe3
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Company List'
+type: company_list
+description: null
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

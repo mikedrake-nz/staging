@@ -1,0 +1,29 @@
+uuid: 7df5f5f2-1a35-4191-a7ef-d0201fa903f7
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.company_list.body
+    - node.type.company_list
+  module:
+    - text
+    - user
+id: node.company_list.default
+targetEntityType: node
+bundle: company_list
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

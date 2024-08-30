@@ -1,0 +1,30 @@
+uuid: f4266f2b-a91c-490c-9c73-dc44706c5e5d
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.company.field_broadband_type
+    - field.field.paragraph.company.field_company_name
+    - paragraphs.paragraphs_type.company
+id: paragraph.company.default
+targetEntityType: paragraph
+bundle: company
+mode: default
+content:
+  field_broadband_type:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_company_name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

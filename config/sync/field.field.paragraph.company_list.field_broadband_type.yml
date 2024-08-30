@@ -1,0 +1,21 @@
+uuid: 532ab4dc-40b8-4114-9bac-989a6af17dc6
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_broadband_type
+    - paragraphs.paragraphs_type.company_list
+  module:
+    - options
+id: paragraph.company_list.field_broadband_type
+field_name: field_broadband_type
+entity_type: paragraph
+bundle: company_list
+label: 'Broadband Type'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_string

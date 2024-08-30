@@ -1,0 +1,13 @@
+uuid: 300de780-534c-4a0f-9334-bdaed5af3e84
+langcode: en-gb
+status: true
+dependencies: {  }
+id: daily
+label: Daily
+enabled: true
+keep: 30
+period: 86400
+cron: null
+source_id: default_db
+destination_id: backups
+settings_profile_id: null

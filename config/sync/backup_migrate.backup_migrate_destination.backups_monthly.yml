@@ -1,0 +1,9 @@
+uuid: fd9e8c8b-cfec-4d5e-bab0-3c29a3809dc1
+langcode: en-gb
+status: true
+dependencies: {  }
+id: backups_monthly
+label: Backups.Monthly
+type: Directory
+config:
+  directory: /home/greenkiw/.backups/drupal10/monthly

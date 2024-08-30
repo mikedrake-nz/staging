@@ -1,0 +1,11 @@
+uuid: 4d6d894f-8663-4997-a3f9-8b64def2f56d
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.file_upload_any
+id: node.file_upload_any
+target_entity_type_id: node
+target_bundle: file_upload_any
+default_langcode: site_default
+language_alterable: false

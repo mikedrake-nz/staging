@@ -1,0 +1,22 @@
+uuid: 37cddca3-1116-4bce-93ed-b4070a223c90
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.company_list
+id: node.company_list.status
+field_name: status
+entity_type: node
+bundle: company_list
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

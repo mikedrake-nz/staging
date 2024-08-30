@@ -1,0 +1,10 @@
+uuid: c72a24d9-3cea-42a1-bcf4-a4aad33bb17a
+langcode: en-gb
+status: true
+dependencies: {  }
+id: company
+label: Company
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

@@ -1,0 +1,21 @@
+uuid: beec583c-5f18-4c42-ada9-e950894dc3af
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.company_list.field_broadband_type
+    - paragraphs.paragraphs_type.company_list
+id: paragraph.company_list.default
+targetEntityType: paragraph
+bundle: company_list
+mode: default
+content:
+  field_broadband_type:
+    type: options_select
+    weight: 1
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

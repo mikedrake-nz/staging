@@ -1,0 +1,13 @@
+uuid: 7b2d7025-c35c-494c-a9d7-e4e1dba7cd2b
+langcode: en-gb
+status: true
+dependencies: {  }
+id: monthly
+label: Monthly
+enabled: true
+keep: 24
+period: 2419200
+cron: null
+source_id: default_db
+destination_id: backups_monthly
+settings_profile_id: null

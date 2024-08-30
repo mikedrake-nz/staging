@@ -1,0 +1,24 @@
+uuid: ef84a01a-ec9b-473a-aa19-582b94816b3c
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.company_list
+  module:
+    - text
+id: node.company_list.body
+field_name: body
+entity_type: node
+bundle: company_list
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

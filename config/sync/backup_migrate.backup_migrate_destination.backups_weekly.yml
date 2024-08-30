@@ -1,0 +1,9 @@
+uuid: 600e9f08-b00c-4956-9702-55c7770bd6d8
+langcode: en-gb
+status: true
+dependencies: {  }
+id: backups_weekly
+label: Backups.Weekly
+type: Directory
+config:
+  directory: /home/greenkiw/.backups/drupal10/weekly

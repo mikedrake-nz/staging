@@ -1,0 +1,18 @@
+uuid: 720dffd7-c972-46f5-bb7d-7c9155008e6c
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Upload
+type: file_upload_any
+description: 'Page to upload files.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true
