@@ -1,0 +1,27 @@
+uuid: bcff971a-1546-4d46-b93e-214c959b98e1
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_upload_filename
+    - node.type.article
+  module:
+    - file
+id: node.article.field_upload_filename
+field_name: field_upload_filename
+entity_type: node
+bundle: article
+label: Filename
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:file'
+  handler_settings: {  }
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'txt pdf jpeg m4v'
+  max_filesize: 10MB
+  description_field: true
+field_type: file
